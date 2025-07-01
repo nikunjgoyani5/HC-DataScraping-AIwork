@@ -1,0 +1,33 @@
+{
+  "name": "health-compass-phase-2",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.1.0",
+    "axios": "^1.9.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.1.0",
+    "http": "^0.0.1-security",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.15.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "openai": "^5.3.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5",
+    "uuid": "^11.1.0"
+  }
+}
